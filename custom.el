@@ -26,4 +26,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(mode-line ((t (:background "gray15" :foreground "gray85" :inverse-video nil :box (:line-width 3 :color "#607d8b") :height 0.85))))
+ '(mode-line-buffer-id ((t (:foreground "gray80" :weight bold :height 0.9))))
+ '(mode-line-highlight ((t (:background "gray60" :foreground "white" :box nil))))
+ '(mode-line-inactive ((t (:inherit mode-line :background "gray15" :foreground "gray80" :inverse-video nil :box (:line-width 3 :color "gray60") :weight normal :height 0.85)))))
