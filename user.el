@@ -48,3 +48,5 @@
   (emojify-set-emoji-data))
 
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
+(load (concat dotfiles-dir "private.el") 'noerror)
