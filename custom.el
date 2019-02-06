@@ -6,6 +6,7 @@
  '(custom-safe-themes
    (quote
     ("c74e83f8aa4c78a121b52146eadb792c9facc5b1f02c917e3dbb454fca931223" "a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" default)))
+ '(emojify-emoji-styles (quote (ascii github unicode)))
  '(iedit-toggle-key-default (kbd "C-,"))
  '(ohai-personal-taste/paredit t)
  '(ohai-personal-taste/run-wizard nil)
